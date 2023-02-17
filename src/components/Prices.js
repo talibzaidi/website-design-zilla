@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Popup2 from "./Popup2";
 
 export const Prices = (props) => {
-  const [isPopUpVisible,setIsPopupVisible]=  useState(false)
+  const [isPopUpVisible, setIsPopupVisible] = useState(false);
   let settings = {
     dots: true,
     infinite: true,
@@ -49,20 +49,24 @@ export const Prices = (props) => {
                         <li>100% Unique Design Guarantee</li>
                         <li>100% Money Back Guarantee *</li>
                       </ul>
-                      
                     </div>
-                    <a className='price_btn' value="send"
-                    //  data-bs-toggle="modal"
-                    //  data-bs-target="#exampleModalToggle"
-                      onClick={(e)=>{
-                      e.preventDefault()
-                      props.HandleOnOrderNowClick?.()
-                    }} >Order Now</a>
+                    <a
+                      href="#"
+                      className="price_btn"
+                      value="send"
+                      //  data-bs-toggle="modal"
+                      //  data-bs-target="#exampleModalToggle"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        props.HandleOnOrderNowClick?.();
+                      }}
+                    >
+                      Order Now
+                    </a>
 
-                      <Popup2 visibility={isPopUpVisible} handleClose={()=>{
+                    {/* <Popup2 visibility={isPopUpVisible} handleClose={()=>{
                         setIsPopupVisible(false)
-                      }} />
-
+                      }} /> */}
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -94,10 +98,18 @@ export const Prices = (props) => {
                         <li>CMS will be Additional $250*</li>
                       </ul>
                     </div>
-                    <button type="" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" onClick={(e)=>{
-                      e.preventDefault()
-
-                    }} >Order Now</button>
+                    <button
+                      type=""
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                      onClick={(e) => {
+                        e.preventDefault();
+                      }}
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -130,7 +142,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -171,13 +191,21 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>
               <br />
               <div className="row">
-              <div className="col-md-4">
+                <div className="col-md-4">
                   <div className="price_box">
                     <h4 className="mb30">Business Website Package</h4>
                     <h2>$1599.00</h2>
@@ -232,7 +260,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-4">
@@ -295,10 +331,18 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
-                
+
                 <div className="col-md-4">
                   <div className="price_box">
                     <h4 className="mb30">
@@ -368,7 +412,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -404,7 +456,7 @@ export const Prices = (props) => {
                         <li>Up To 7 Categories</li>
                         <li>Full Shopping Cart Integration</li>
                         <li>Payment Module Integration</li>
-                        <li>Sales  Inventory Management</li>
+                        <li>Sales Inventory Management</li>
                         <li>Jquery Slider</li>
                         <li>Free Google Friendly Sitemap</li>
                         <li>Custom Email Addresses</li>
@@ -421,7 +473,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -450,7 +510,7 @@ export const Prices = (props) => {
                         <li>Full Shopping Cart Integration</li>
                         <li>Payment Module Integration</li>
                         <li>Mobile Responsive will be Additional $200*</li>
-                        <li>Sales  Inventory Management</li>
+                        <li>Sales Inventory Management</li>
                         <li>Jquery Slider</li>
                         <li>Free Google Friendly Sitemap</li>
                         <li>Custom Email Addresses</li>
@@ -467,7 +527,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -497,7 +565,7 @@ export const Prices = (props) => {
                         <li>Complete Deployment</li>
                         <li>Full Shopping Cart Integration</li>
                         <li>Payment Module Integration</li>
-                        <li>Sales  Inventory Management</li>
+                        <li>Sales Inventory Management</li>
                         <li>Jquery Slider</li>
                         <li>Free Google Friendly Sitemap</li>
                         <li>Custom Email Addresses</li>
@@ -515,7 +583,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -539,8 +615,7 @@ export const Prices = (props) => {
                         <li>UNLIMITED Revisions</li>
                         <li>Print Media</li>
                         <li>
-                          Stationary Design (BusinessCard,Letterhead 
-                          Envelope)
+                          Stationary Design (BusinessCard,Letterhead Envelope)
                         </li>
                         <li>Invoice Design, Email Signature</li>
                         <li>Bi-Fold Brochure (OR) 2 Sided Flyer Design</li>
@@ -555,7 +630,7 @@ export const Prices = (props) => {
                         <li>Full Shopping Cart Integration</li>
                         <li>Unlimited Products</li>
                         <li>Unlimited Categories</li>
-                        <li>Product Rating  Reviews</li>
+                        <li>Product Rating Reviews</li>
                         <li>Easy Product Search</li>
                         <li>Payment Gateway Integration</li>
                         <li>Multi-currency Support</li>
@@ -566,8 +641,8 @@ export const Prices = (props) => {
                         <li>Tell a Friend Feature</li>
                         <li>Social Media Pages</li>
                         <li>
-                          Facebook , Twitter, YouTube, Google+  Pinterest
-                          Page Designs
+                          Facebook , Twitter, YouTube, Google+ Pinterest Page
+                          Designs
                         </li>
                         <li>Value Added Services</li>
                         <li>Dedicated Account Manager</li>
@@ -580,7 +655,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -662,7 +745,15 @@ export const Prices = (props) => {
                         <li>Dedicated Team of Designers and Developers</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-4">
@@ -716,8 +807,8 @@ export const Prices = (props) => {
                         <li>Order management</li>
                         <li>LOT numbers and expire date tracking</li>
                         <li>
-                          Transfer stock between warehouses (If Warehouse
-                          API NEEDED)
+                          Transfer stock between warehouses (If Warehouse API
+                          NEEDED)
                         </li>
                         <li>
                           Receive stock into a specific warehouse (If Warehouse
@@ -759,12 +850,11 @@ export const Prices = (props) => {
                           Natural Language Processing (NLP) for Data Cleansing
                           and Building Data Robustness
                         </li>
-                        <li>Automated Invoices  Estimates</li>
+                        <li>Automated Invoices Estimates</li>
                         <li>
-                          Create beautiful, professional invoices 
-                          estimates in just a few seconds and then instantly
-                          email them as PDF&#8217;s directly to your customers
-                          or prospects.
+                          Create beautiful, professional invoices estimates in
+                          just a few seconds and then instantly email them as
+                          PDF&#8217;s directly to your customers or prospects.
                         </li>
                         <li>Automated Split invoicing</li>
                         <li>Automated Combine invoices</li>
@@ -818,7 +908,15 @@ export const Prices = (props) => {
                         </li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-2"></div>
@@ -861,7 +959,15 @@ export const Prices = (props) => {
                         <li>CMS will be Additional $149*</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -895,7 +1001,15 @@ export const Prices = (props) => {
                         <li>100% Unique Design Guarantee</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -938,7 +1052,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -958,8 +1080,7 @@ export const Prices = (props) => {
                       <ul>
                         <li>15 to 20 Pages Website</li>
                         <li>
-                          Custom Made, Interactive, Dynamic  High End
-                          Design
+                          Custom Made, Interactive, Dynamic High End Design
                         </li>
                         <li>Custom WP (or) Custom PHP Development</li>
                         <li>1 jQuery Slider Banner</li>
@@ -1000,14 +1121,22 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
-                </div>
-                <br/>
-                <div className="row">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-4">
+              </div>
+              <br />
+              <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-4">
                   <div className="price_box">
                     <h4>Business WordPress Package</h4>
                     <h2>$2495.00</h2>
@@ -1029,8 +1158,7 @@ export const Prices = (props) => {
                           Instagram)
                         </li>
                         <li>
-                          Custom Made, Interactive, Dynamic  High End
-                          Design
+                          Custom Made, Interactive, Dynamic High End Design
                         </li>
                         <li>Custom WP (or) Custom PHP Development</li>
                         <li>1 jQuery Slider Banner</li>
@@ -1053,7 +1181,7 @@ export const Prices = (props) => {
                         </li>
                         <li>Mobile Responsive</li>
                         <li>15 Seconds 2D Explainer Video</li>
-                        <li>Voice Over  Sound Effects</li>
+                        <li>Voice Over Sound Effects</li>
                         <li>Professional Script Writing</li>
                         <li>Storyboard</li>
                         <li>SEO Meta Tags</li>
@@ -1073,10 +1201,18 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
-                    </div>
-                    <div className="col-md-4">
+                </div>
+                <div className="col-md-4">
                   <div className="price_box">
                     <h4>Automated/Interactive Conferencing Portal Package</h4>
                     <h2>$4995.00</h2>
@@ -1135,19 +1271,26 @@ export const Prices = (props) => {
                         <li>Learning Management System</li>
                         <li>Quick And Easy Course Scheduling</li>
                         <li>Reporting And Data Analysis</li>
-                        <li>Assessment Management  Live Feedback</li>
+                        <li>Assessment Management Live Feedback</li>
                         <li>Gradebooks</li>
                         <li>Quick User Integration</li>
                         <li>Easy Payment Methods</li>
-                        <li>Online Communities  Social Engagement</li>
+                        <li>Online Communities Social Engagement</li>
                         <li>Curation of Resources And Adding Own Resources</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
-                 </div>
-                    <div className="col-md-2"></div>
-            
+                </div>
+                <div className="col-md-2"></div>
               </div>
             </div>
             {/* Wordpress packages Ends */}
@@ -1179,7 +1322,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1205,7 +1356,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1231,7 +1390,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1257,7 +1424,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -1297,7 +1472,15 @@ export const Prices = (props) => {
                         <li>100% Ownership Rights</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1331,7 +1514,15 @@ export const Prices = (props) => {
                         <li>100% Ownership Rights</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1366,7 +1557,15 @@ export const Prices = (props) => {
                         <li>15% Discount on your next order</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1402,13 +1601,21 @@ export const Prices = (props) => {
                         <li>15% Discount on your next order</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
-                </div>
-                <br/>
-                <div className="row">
-                    <div className="col-md-2"></div>
+              </div>
+              <br />
+              <div className="row">
+                <div className="col-md-2"></div>
                 <div className="col-md-4">
                   <div className="price_box">
                     <h4>Business Logo Packages</h4>
@@ -1444,7 +1651,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-4">
@@ -1483,7 +1698,15 @@ export const Prices = (props) => {
                         <li>100% Money Back Guarantee *</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-2"></div>
@@ -1516,14 +1739,20 @@ export const Prices = (props) => {
                         <li>Storyboard</li>
                         <li>Custom Artwork</li>
                         <li>Animation</li>
-                        <li>
-                          Professional Voice Over  Sound Effects
-                        </li>
+                        <li>Professional Voice Over Sound Effects</li>
                         <li>1 week Delivery</li>
                         <li>Unlimited Revisions</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1545,16 +1774,21 @@ export const Prices = (props) => {
                         <li>Professional Script</li>
                         <li>Sample Themes</li>
                         <li>Storyboard</li>
-                        <li>Custom Setting, Characters  Graphics</li>
-                        <li>Animation Effects  Visualization</li>
-                        <li>
-                          Voice Over  Sound Effects (All accents)
-                          (M/F)
-                        </li>
+                        <li>Custom Setting, Characters Graphics</li>
+                        <li>Animation Effects Visualization</li>
+                        <li>Voice Over Sound Effects (All accents) (M/F)</li>
                         <li>Unlimited Revisions</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1577,12 +1811,20 @@ export const Prices = (props) => {
                         <li>Sample Theme</li>
                         <li>Storyboard</li>
                         <li>Animation</li>
-                        <li>Voice Over  Sound Effects</li>
+                        <li>Voice Over Sound Effects</li>
                         <li>5 weeks Delivery</li>
                         <li>Unlimited Revisions</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3">
@@ -1605,18 +1847,26 @@ export const Prices = (props) => {
                         <li>Sample Theme</li>
                         <li>Storyboard</li>
                         <li>Animation</li>
-                        <li>Voice Over  Sound Effects</li>
+                        <li>Voice Over Sound Effects</li>
                         <li>6 Weeks Delivery</li>
                         <li>Unlimited Revisions</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
-                </div>
-                <br/>
-                <div className="row">
-                    <div className="col-md-3"></div>
+              </div>
+              <br />
+              <div className="row">
+                <div className="col-md-3"></div>
                 <div className="col-md-6">
                   <div className="price_box">
                     <h4>Deluxe Video Packages</h4>
@@ -1641,7 +1891,15 @@ export const Prices = (props) => {
                         <li>Unlimited Revisions</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
                 <div className="col-md-3"></div>
@@ -1700,10 +1958,18 @@ export const Prices = (props) => {
                         <li>Local Business Listings</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
-                  </div>
-                  <div className="col-md-4">
+                </div>
+                <div className="col-md-4">
                   <div className="price_box">
                     <h4>Scaling SEO Packages</h4>
                     <h2>$750.00</h2>
@@ -1728,7 +1994,7 @@ export const Prices = (props) => {
                         <li>Keyword Optimization</li>
                         <li>Image Optimization</li>
                         <li>Inclusion of anchors</li>
-                        <li>Tracking  Analysis</li>
+                        <li>Tracking Analysis</li>
                         <li>Google Analytics Installation</li>
                         <li>Google Webmaster Installation</li>
                         <li>Call To Action Plan</li>
@@ -1747,10 +2013,18 @@ export const Prices = (props) => {
                         <li>Local Business Listings</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
-                  </div>
-                  <div className="col-md-4">
+                </div>
+                <div className="col-md-4">
                   <div className="price_box">
                     <h4>Venture Plan Packages</h4>
                     <h2>$1199.00</h2>
@@ -1776,7 +2050,7 @@ export const Prices = (props) => {
                         <li>Image Optimization</li>
                         <li>Inclusion of anchors Tags</li>
                         <li>Inclusion of anchors Indexing Modifications</li>
-                        <li>Tracking  Analysis</li>
+                        <li>Tracking Analysis</li>
                         <li>Google Places Inclusions</li>
                         <li>Google Analytics Installation</li>
                         <li>Google Webmaster Installation</li>
@@ -1796,7 +2070,15 @@ export const Prices = (props) => {
                         <li>Local Business Listings</li>
                       </ul>
                     </div>
-                    <button type="submit" className='price_btn' value="send" data-bs-toggle="modal" data-bs-target="#exampleModalToggle" >Order Now</button>
+                    <button
+                      type="submit"
+                      className="price_btn"
+                      value="send"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModalToggle"
+                    >
+                      Order Now
+                    </button>
                   </div>
                 </div>
               </div>

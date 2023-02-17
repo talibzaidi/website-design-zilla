@@ -600,3 +600,21 @@ h2{font-size:25px !important;}
     .footer{padding: 10px;}
 .blog1 h6>span{width:55%;}
 }
+
+
+
+/*  */
+.ReactModal__Body--open {
+    position: static;
+    overflow-y: scroll;
+  }
+  
+  .ReactModal__Html--open {
+    overflow-y: hidden;
+  }
+  
+  .ReactModalPortal {
+    position: fixed;
+    z-index: 1 !important;
+  }
+/*  */

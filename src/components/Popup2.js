@@ -8,6 +8,11 @@ export default function Popup2(props) {
       onHide={props?.handleClose}
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      contentClassName="ReactModal__Html--open"
+      dialogClassName="ReactModal__Html--open"
+      autoFocus={false}
+      // htmlOpenClassName="ReactModal__Html--open"
+      style={{ position: "fixed", overflowY: "hidden" }}
       // onBackdropClick={props?.handleClose}
     >
       <Modal.Header style={{ justifyContent: "center", borderWidth: 0 }}>
